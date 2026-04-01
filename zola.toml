@@ -25,7 +25,7 @@ mathjax = true
 # Put all your custom variables here
 header_nav = [
 { url = "/", name_en = "/home/", name_fr = "/accueil/" },
-{url = "tutorials", name_en = "/tutorials/", name_fr = "/tutoriel" },
+{ url = "/tutorials", name_en = "/tutorials/", name_fr = "/tutoriel" },
 { url = "/about", name_en = "/about/", name_fr = "/concernant/" },
 { url = "/now", name_en = "/now/", name_fr = "/maintenant/" }
 ]
