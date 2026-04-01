@@ -15,6 +15,8 @@ Random stuff I work at
 
 # Funny stuff I think you should read
 
+Pretty self explanatory.
+
 - [funky stuff about what constitutes knowledge](https://fitelson.org/proseminar/gettier.pdf)
 - [Replication of Quantum Factorisation Records with an 8-bit Home Computer, an Abacus, and a Dog](https://eprint.iacr.org/2025/1237.pdf)
 - [Blindsight](https://www.rifters.com/real/Blindsight.htm) by Peter Watts. Yes that's the book. Yes it's online. No it's not piracy it's the authors website.
@@ -26,3 +28,4 @@ To contact me, please use:
 - Email: [dmytro.perkov@protonmail.com](mailto:dmytro.perkov@protonmail.com) // (Personal)
 - Github: [sevenpigeons](https://github.com/sevenpigeons)
 - Bluesky: [sevenpigeons.ca](https://bsky.app/profile/sevenpigeons.ca)
+- [Website](/)
