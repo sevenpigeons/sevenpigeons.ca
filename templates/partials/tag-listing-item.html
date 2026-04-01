@@ -1,0 +1,4 @@
+<h2>{{tag.name}}</h2>
+    {% for page in tag.pages %}
+        {% include "partials/content-listing-item.html" %}
+    {% endfor %}

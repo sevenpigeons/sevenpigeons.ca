@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+    {% block content %}
+<section class="content-section">
+    <h1>{{ section.title }}</h1>
+    {{ section.content | safe }}
+
+    {% set tags = get_taxonomy(kind="tags") %}
+    <ul class="content-list">
+        {# Use paginator if it exists, else regular pages #}
+        {% for tag in tags.items %}
+        {% include "partials/tag-listing-item.html" %}
+            {% endfor %}
+    </ul>
+
+<!--
+    <ul class="content-list">
+        {# Use paginator if it exists, else regular pages #}
+        {% for page in paginator.pages | default(value=section.pages) %}
+        {% include "partials/content-listing-item.html" %}
+        {% endfor %}
+    </ul>
+-->
+    {% if paginator %}
+    {% include "partials/pagination.html" %}
+    {% endif %}
+</section>
+{% endblock %}

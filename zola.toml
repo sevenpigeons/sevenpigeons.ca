@@ -1,0 +1,33 @@
+# The URL the site will be built for
+base_url = "https://sevenpigeons.ca"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+# build_search_index = true
+title = "Pigeons in my yard"
+theme = "anemone"
+
+taxonomies = [
+{name = "tags", feed = true, paginate_by = 10}
+]
+
+[markdown]
+
+[markdown.highlighting]
+theme = "catppuccin-mocha"
+highlight_code = true
+
+
+[extra]
+mathjax = true
+# Put all your custom variables here
+header_nav = [
+{ url = "/", name_en = "/home/", name_fr = "/accueil/" },
+{url = "tutorials", name_en = "/tutorials/", name_fr = "/tutoriel" },
+{ url = "/about", name_en = "/about/", name_fr = "/concernant/" },
+{ url = "/now", name_en = "/now/", name_fr = "/maintenant/" }
+]
+
+#toc = true
