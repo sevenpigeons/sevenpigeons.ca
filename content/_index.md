@@ -9,7 +9,7 @@ Hello! My name is Dmytro, and this is the main(-ish) spot on the internet where 
 
 # Projects
 
-Random stuff I work at
+Some of the things I made or helped with.
 
 - [some machine learning stuff](https://github.com/sevenpigeons/hVAE_rs)
 
