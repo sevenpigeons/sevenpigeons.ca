@@ -2,7 +2,7 @@
 title = "About all this"
 +++
 
-Hello! My name is Dmytro, and I'm a Masters student at Concordia University in Montreal, working at the [Mansbach Lab](https://mansbach-lab.github.io/research/)
+Hello! My name is Dmytro, and I'm a Masters? student at Concordia University in Montreal, working at the [Mansbach Lab](https://mansbach-lab.github.io/research/)
 on coarse-grained simulations of mucins.
 
 In my free time I read, tinker with horrible Rust code,
