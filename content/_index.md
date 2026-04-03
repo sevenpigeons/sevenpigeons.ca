@@ -28,5 +28,5 @@ To contact me, please use:
 - Email: [dmytro.perkov@protonmail.com](mailto:dmytro.perkov@protonmail.com) // (Personal)
 - Github: [sevenpigeons](https://github.com/sevenpigeons)
 - Tangled: [sevenpigeons.ca](https://tangled.org/sevenpigeons.ca)
-- Bluesky: [sevenpigeons.ca](https://bsky.app/profile/sevenpigeons.ca)
+<!-- - Bluesky: [sevenpigeons.ca](https://bsky.app/profile/sevenpigeons.ca)--> 
 - [Website](/)
