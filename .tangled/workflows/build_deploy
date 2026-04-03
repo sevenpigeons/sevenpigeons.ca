@@ -4,8 +4,7 @@ when:
 
 engine: 'nixery'
 dependencies:
-  nixpkgs: 
-    - zola
+  nixpkgs: [zola, coreutils, curl, glibc]
 
 clone:
   skip: false
