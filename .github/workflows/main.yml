@@ -37,8 +37,8 @@ jobs:
         run: |
           curl https://sites.wisp.place/nekomimi.pet/wisp-cli-binaries/wisp-cli-x86_64-linux -o wisp-cli 
           chmod +x wisp-cli 
-          ./wisp-cli deploy "${{ env.WISP_HANDLE }}" \
-            --path "${{ env.SITE_PATH }}" \
-            --site "${{ env.SITE_NAME }}" \
+          ./wisp-cli deploy "${{ vars.WISP_HANDLE }}" \
+            --path "${{ vars.SITE_PATH }}" \
+            --site "${{ vars.SITE_NAME }}" \
             --password "${{ secrets.WISP_APP_PASSWORD }}"
 
