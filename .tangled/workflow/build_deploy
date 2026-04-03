@@ -1,0 +1,32 @@
+when:
+  - event: ['push']
+    branch: ['main']
+
+engine: 'nixery'
+dependencies:
+  nixpkgs: 
+    - zola
+
+clone:
+  skip: false
+  depth: 1
+  submodules: true
+
+environment:
+  SITE_PATH: 'public'
+  SITE_NAME: 'main_site'
+  WISP_HANDLE: 'sevenpigeons.ca'
+
+
+steps:
+  - name: build
+    command: |
+      zola build
+  - name: deploy
+    command: |
+      curl https://sites.wisp.place/nekomimi.pet/wisp-cli-binaries/wisp-cli-x86_64-linux -o wisp-cli 
+      chmod +x wisp-cli 
+      ./wisp-cli deploy "$WISP_HANDLE" \
+        --path "$SITE_PATH" \
+        --site "$SITE_NAME" \
+        --password "$WISP_APP_PASSWORD"
