@@ -20,6 +20,7 @@ environment:
 steps:
   - name: build
     command: |
+      git submodule update --init
       zola --config zola.toml build
   - name: deploy
     command: |
