@@ -20,7 +20,7 @@ environment:
 steps:
   - name: build
     command: |
-      zola build
+      zola --config zola.toml build
   - name: deploy
     command: |
       curl https://sites.wisp.place/nekomimi.pet/wisp-cli-binaries/wisp-cli-x86_64-linux -o wisp-cli 
