@@ -4,8 +4,7 @@ title = "Index"
 
 # Abstract
 
-
-Hello! My name is Dmytro, and this is the main(-ish) spot on the internet where I gather interesting or useful things.
+Internet is cool but only when you make it.
 
 # Projects
 

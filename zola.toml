@@ -21,7 +21,8 @@ highlight_code = true
 
 
 [extra]
-mathjax = true
+#mathjax = true
+# loads a pretty large .js file for every page which we really dont need so will be left up to the page specifics.
 # Put all your custom variables here
 header_nav = [
 { url = "/", name_en = "/home/", name_fr = "/accueil/" },
