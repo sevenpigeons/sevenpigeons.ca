@@ -15,6 +15,9 @@ taxonomies = [
 
 [markdown]
 
+bottom_footnotes = true
+
+
 [markdown.highlighting]
 theme = "catppuccin-mocha"
 highlight_code = true
