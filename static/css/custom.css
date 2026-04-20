@@ -1,4 +1,10 @@
 img,
 video {
-  opacity: 1;
+    opacity: 1;
+}
+
+[data-theme="dark"] {
+    img[src$="#invert"] {
+        filter: invert(1) hue-rotate(180deg);
+    }
 }

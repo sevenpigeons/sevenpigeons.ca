@@ -1,5 +1,5 @@
 +++
-title="Tutorials page"
+title="Tutorials"
 +++
 
 
