@@ -8,3 +8,11 @@ video {
         filter: invert(1) hue-rotate(180deg);
     }
 }
+
+table {
+    white-space: pre-wrap;
+}
+
+details {
+    margin: 1rem 0;
+}
