@@ -1,5 +1,5 @@
 +++
-title="Now (April 2026)"
+title="Now (June 2026)"
 +++
 
 Starting a Masters program in Physics at [Concordia University](https://concordia.ca).
