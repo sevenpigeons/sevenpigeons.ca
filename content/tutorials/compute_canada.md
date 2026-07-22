@@ -10,15 +10,15 @@ tags=["Guides"]
 
 ## Some context
 
-At some point during research (if it's not experimental), you will require use of some sort of simulations.
+At some point during research (if it's not experimental), chances are, you will require use of some sort of simulations.
 
 Physics[^1] is, after all, a science of creating Good Enough<sup>TM</sup> models of the world, and those models have to be tested.
 But even with the simplifications that we make, when everything is a mass on a spring,
 you simply trade the complexity of calculations for their amount.
-And these amounts can get astronomically large. Large enough to require more power than your local computer can provide.
-Sometimes it remains feasable, alas just slow. Sometimes, because of very high RAM requirements, it becomes simply not possible (I'm looking at you [meep](https://meep.readthedocs.io/en/latest/)).
+And these amounts can get astronomically large. Large enough to require more power than any local resources you might have access to can provide.
+Sometimes it remains feasible, alas just slow. Sometimes, because of stupendous RAM requirements, it becomes simply not possible (I'm looking at you [meep](https://meep.readthedocs.io/en/latest/)).
 
-In situations like these we have to turn to specialized equipment, made just for an occasion: supercomputers, and in our case, supercomputer clusters.
+In situations like these we have to turn to specialized equipment, made just for such occasion: supercomputers, and in our case, supercomputer clusters.
 
 The concept of a HPC (High Performance Computing) cluster is rather simple:
 If one computer can't do a task, we split this task into smaller chunks, and send each of those chunks to different computers. They do the work, we combine the results,
@@ -217,10 +217,14 @@ Look up the wiki to see what [Available software](https://docs.alliancecan.ca/wi
 There is a whole array of different other parameters you can specify, like:
 
 `--cpus-per-task=4` to tell how many CPUs you want for every job launched.
+
 `--mem=16G` to specify how much RAM per node you want.
+
 `--job-name=cool_job_name` to rename your job from the default schema to something specific, to better keep track of them.
+
 `--output=logs/log_good.out` To specify where the output goes. By default, all program output (both just logs and errors) are placed inside files called `slurm-$id` where $id is the
 ID of the job. It can get pretty annoying and confusing when you have 3000 of these log files littering about, so you can specify where exactly and how to name the log files.
+
 `--error=logs/log_err.err` if you want to make your control even more granular, you can specify where to place only errors from your program running. All normal logs will go to the 
 `--output` location, and errors into this error file.
 
