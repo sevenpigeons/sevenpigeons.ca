@@ -178,7 +178,7 @@ Can't recommend.
 Everything longer then 3 minutes you will have to submit to the cluster using `sbatch`.
 
 `sbatch` as input takes what's called a job file: a bash script that describes the job you want to run.
-It's composed out of configuration part, where you tell slurm what resources you would like to use, and the actual commands to run the program you want.
+It's composed out of configuration part, where you tell SLURM what resources you would like to use, and the actual commands to run the program you want.
 
 Please please [please please at least glance on the appropriate wiki page](https://docs.alliancecan.ca/wiki/Running_jobs).
 It will do a much better job than I can.
@@ -224,6 +224,10 @@ ID of the job. It can get pretty annoying and confusing when you have 3000 of th
 `--error=logs/log_err.err` if you want to make your control even more granular, you can specify where to place only errors from your program running. All normal logs will go to the 
 `--output` location, and errors into this error file.
 
+General rule of thumb, is that the more resources you ask for, the longer you will wait in queue.
+A job that needs 1 core for 4 hours is much much easier to fit somewhere then a beheamoth of a request for 4 whole nodes, all CPUs and RAM inside included.
+Don't cheap out on the resources you request, do leave yourself some headroom; "I know this job needs 12 GB of RAM so I will give 12.1 GB" is not a great idea.
+But don't ask for 3X the amount *just because*, otherwise list of deadlines you will be worrying about might also now include the heat death of the universe.
 
 If you want any further reading, or just more details, I recommend nothing else but the [man pages](https://slurm.schedmd.com/sbatch.html#SECTION_OPTIONS) for the `sbatch` command 
 on the official slurm website. They have stellar documentation, albeit a bit verbose. I'd recommend sticking with Alliances wiki for starters.
