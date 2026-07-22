@@ -16,3 +16,7 @@ table {
 details {
     margin: 1rem 0;
 }
+
+pre {
+    max-height: 50rem;
+}

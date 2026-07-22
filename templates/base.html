@@ -31,6 +31,11 @@
 
 
     {% endif %}
+
+    {% if config.extra.mermaid | default(value=false) or page.extra.mermaid | default(value=false) %}
+<script src="https://cdn.jsdelivr.net/npm/@mermaid-js/tiny@11/dist/mermaid.tiny.js"></script>
+    {% endif %}
+
         <!-- Add favicon with appropriate sizes -->
         <link rel="icon" href="{{ config.base_url }}/{{ config.extra.favicon | default(value='favicon.ico') }}">
         {% block extra_head %}{% endblock %}
