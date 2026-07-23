@@ -25,6 +25,7 @@ Pretty self explanatory.
 Find me on the internet there:
 
 - Email: [dmytro.perkov@protonmail.com](mailto:dmytro.perkov@protonmail.com) // (Personal)
+- Email: [dmytro@sevenpigeons.ca](mailto:dmytro@sevenpigeons.ca) // (For fun)
 - Github: [sevenpigeons](https://github.com/sevenpigeons)
 <!-- - Tangled: [sevenpigeons.ca](https://tangled.org/sevenpigeons.ca) --->
 - Bluesky: [sevenpigeons.ca](https://bsky.app/profile/sevenpigeons.ca) 
