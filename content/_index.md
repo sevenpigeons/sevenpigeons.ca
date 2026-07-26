@@ -19,6 +19,9 @@ Pretty self explanatory.
 - [funky stuff about what constitutes knowledge](https://fitelson.org/proseminar/gettier.pdf)
 - [Replication of Quantum Factorisation Records with an 8-bit Home Computer, an Abacus, and a Dog](https://eprint.iacr.org/2025/1237.pdf)
 - [Blindsight](https://www.rifters.com/real/Blindsight.htm) by Peter Watts. Yes that's the book. Yes it's online. No it's not piracy it's the authors website.
+- [Calculus Made Easy](https://calculusmadeeasy.org/), the greatest calculus textbook ever written.
+Not a contest not even close. If you ever think the 18th or whatever 29th edition of Stewart they make you buy now
+is being overly complex, give this book a try.
 
 # Socials
 
