@@ -254,8 +254,6 @@ Sources:
 2. [SLURM Documentation](https://slurm.schedmd.com/)
 3. Voices from the dark
 
----
-Remarks:
 [^1]: I am making an example about physics because that's what I do.
 [^2]: Technically, clusters are operated by separate entities and universities where they are located, but allocations are managed centrally by the Alliance.
 [^3]: Ish. It's a bit* different the way comparisons are metaphors and not statements of equivalence but that's a problem you will have to worry about only when you are managing your own lab and therefore a bit out of scope of the guide.

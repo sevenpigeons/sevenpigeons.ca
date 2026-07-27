@@ -31,7 +31,7 @@ highlight_code = true
 # same as with mathjax, mermaid with graphs. load by page when needed.
 header_nav = [
 { url = "/", name_en = "/home/", name_fr = "/accueil/" },
-{ url = "/tutorials", name_en = "/tutorials/", name_fr = "/tutoriel" },
+{ url = "/stuff", name_en = "/stuff/", name_fr = "/trucs" },
 { url = "/about", name_en = "/about/", name_fr = "/concernant/" },
 { url = "/now", name_en = "/now/", name_fr = "/maintenant/" }
 ]
