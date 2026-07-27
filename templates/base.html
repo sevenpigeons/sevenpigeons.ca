@@ -71,13 +71,15 @@
         </main>
 
         <footer>
-            <div id="footnotes-container">
+            <!--
+                <div id="footnotes-container">
                 </div>
+            -->
             {% include "footer.html" %}
-
-            <script>
-                // heresy but sssshhhh
-                var footer_container = document.getElementById("footnotes-container")
+            <!--
+                <script>
+                    // heresy but sssshhhh
+                    var footer_container = document.getElementById("footnotes-container")
                 var footnotes = document.getElementsByClassName("footnotes")[0]
                 if (footnotes) {
                     footer_container.prepend(footnotes)
@@ -85,7 +87,8 @@
                     footer_container.prepend("Remarks:")
                     footer_container.prepend(hr)
                 }
-            </script>
+                </script>
+                -->
         </footer>
 
         <!-- Move JS to end of body and add defer -->
