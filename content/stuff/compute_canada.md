@@ -141,6 +141,8 @@ Once you have logged-in via the terminal (SSH'd) into the server, you are (as me
 
 More specifically, you are inside whats called a **Login Node**.
 
+Login node of a system running SLURM, a Simple Linux Utility for Resource Management. Piece of software designed to organize and well, manage resources in Linuc clusters.
+
 Let's show a little diagram.
 
 
@@ -166,11 +168,11 @@ F --> G
 end
 {% end %}
 
-So. As you have seen on the wiki, every cluster is composed of a certain among of Nodes. 
+So. As you have seen on the wiki, every cluster is composed of a certain amount of Nodes. 
 For security and general IT well-being reasons, often those nodes are isolated from the world, and can only talk to each other.
 
 So to talk to them there are special nodes, called Login Nodes, which are way less powerful then a standard node,
-which exist solely to submit jobs to the rest of the cluster. Alliance IT people will get rather mad if you are doing something computationally intensive 
+and exist to submit jobs to the rest of the cluster. Alliance IT people will get rather mad if you are doing something computationally intensive 
 on them because it will slow down work for quite literally _<b>EVERYONE ELSE</b>_ using the cluster and you might receive a strongly worded email.
 
 Can't recommend.
@@ -227,6 +229,10 @@ ID of the job. It can get pretty annoying and confusing when you have 3000 of th
 
 `--error=logs/log_err.err` if you want to make your control even more granular, you can specify where to place only errors from your program running. All normal logs will go to the 
 `--output` location, and errors into this error file.
+
+`./my_program --input file.csv` is the rest of the job, the part describing what programs you actually want to run and with what files.
+This part is fully up to you, and depends on *what you are actually doing*, so here I am of little help.
+But! the wiki might not be! Look up the software you are using and you might find recommended settings and methods of running, as well as common problems you might face.
 
 General rule of thumb, is that the more resources you ask for, the longer you will wait in queue.
 A job that needs 1 core for 4 hours is much much easier to fit somewhere then a beheamoth of a request for 4 whole nodes, all CPUs and RAM inside included.
