@@ -270,4 +270,4 @@ quantum computer operated by Calcul Québec. There are also 4 legacy clusters wh
 [^5]: Suffering is about using windows, not PuTTy per se.
 [^6]: Some more simple ones might not have `vim`, but will have its predecessor, `vi`, which is literally the same and everything here works on both.
 [^7]: None of this is truly ever done and you will run into so many more issues during your quest, but thats details. If anything does go wrong do email `support@tech.alliancecan.ca`.
-AllianceCan employs some actual wizards and they have most probably already seen it all, and have a solution just for you read and wrapped somewhere.
+AllianceCan employs some actual wizards and they have most probably already seen it all, and have a solution just for you ready and wrapped somewhere.
