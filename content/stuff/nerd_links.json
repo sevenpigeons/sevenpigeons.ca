@@ -2,12 +2,13 @@
     "title": "Nerd stuff",
     "records": [
         {
-            "name": "Learn rust in 27 minutes",
+            "name": "Learn Rust in 27 minutes",
             "link": "https://fasterthanli.me/articles/a-half-hour-to-learn-rust"
         },
         {
             "name": "Learn You a Haskell",
-            "link": "https://learnyouahaskell.github.io/"
+            "link": "https://learnyouahaskell.github.io/",
+            "note": "Learns you a haskell. Pretty descriptive."
         },
         {
             "name": "Papers from the lab im in",

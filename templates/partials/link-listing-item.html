@@ -5,4 +5,7 @@
     <a href="{{ entry.link }}" target="_blank" class="content-link">
         {{ entry.name }}
     </a>
+    {% if entry.note %}
+    <br>» {{ entry.note}}
+    {% endif %}
 </li>
