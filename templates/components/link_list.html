@@ -1,0 +1,14 @@
+{% component link_list(path:string) %}
+{% set data = load_data(path=path,format="json") %}
+
+<ul class="content-list">
+<h2>{{data["title"]}}</h2>
+
+    {% for entry in data["records"] %}
+
+    {% include "partials/link-listing-item.html" %} 
+    {% endfor %}
+
+</ul>
+
+{% endcomponent link_list %}

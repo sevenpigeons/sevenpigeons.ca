@@ -96,7 +96,7 @@ To edit the file, you have a choice:
 
 If you are brave, open and read about VIM ([mandatory xkcd reference](https://xkcd.com/378/))
 
-{% collapse(title="### VIM") %}
+{% <collapse title="### VIM"> %}
 
 ```sh
 [user@server ~]$ vim file_name
@@ -115,7 +115,7 @@ In the bottom left, you will see in **bold** text **NORMAL**. That's the current
 
 Congrats, you now know like 40% of how to use vim for simple things, go off and conquer.
 
-{% end %}
+{% </collapse> %}
 
 
 If you like your sanity as it is now, use `nano`
@@ -146,7 +146,7 @@ Login node of a system running SLURM, a Simple Linux Utility for Resource Manage
 Let's show a little diagram.
 
 
-{% mermaid() %}
+{% <mermaid> %}
 
 ---
 title: SLURM cluster structure
@@ -166,7 +166,7 @@ D --> G
 E --> G 
 F --> G
 end
-{% end %}
+{% </mermaid> %}
 
 So. As you have seen on the wiki, every cluster is composed of a certain amount of Nodes. 
 For security and general IT well-being reasons, often those nodes are isolated from the world, and can only talk to each other.

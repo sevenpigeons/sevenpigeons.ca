@@ -16,9 +16,15 @@
 <!--
     <ul class="content-list">
         {# Use paginator if it exists, else regular pages #}
-        {% for page in paginator.pages | default(value=section.pages) %}
+        {% if paginator %}
+        {% for page in paginator.pages %}
         {% include "partials/content-listing-item.html" %}
         {% endfor %}
+        {% else %}
+        {% for page in section.pages %}
+        {% include "partials/content-listing-item.html" %}
+        {% endfor %}
+        {% endif %}
     </ul>
 -->
     {% if paginator %}

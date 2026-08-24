@@ -1,11 +1,14 @@
+
 <li class="title-list">
-    {% if entry.date %}
-    <time class="content-meta">{{ entry.date | date(format="%Y-%m-%d") }}</time>
-    {% endif %}
-    <a href="{{ entry.link }}" target="_blank" class="content-link">
-        {{ entry.name }}
-    </a>
-    {% if entry.note %}
-    <br>» {{ entry.note}}
-    {% endif %}
+{% if entry.date %}
+<time class="content-meta">{{ entry.date | date(format="%Y-%m-%d") }}</time>
+{% endif %}
+<a href="{{ entry.link }}" target="_blank" class="content-link">
+{{ entry.name }}
+</a>
+{% if entry.note %}
+<div>
+» {{entry.note}}
+</div>
+{% endif %}
 </li>

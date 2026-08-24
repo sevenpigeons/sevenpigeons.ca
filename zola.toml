@@ -1,6 +1,8 @@
 # The URL the site will be built for
 base_url = "https://sevenpigeons.ca"
 
+generate_feeds = true
+generate_sitemap = true
 # Whether to automatically compile all Sass files in the sass directory
 # compile_sass = true
 
@@ -14,13 +16,12 @@ taxonomies = [
 ]
 
 [markdown]
-
 bottom_footnotes = true
-
 
 [markdown.highlighting]
 theme = "catppuccin-mocha"
-highlight_code = true
+#style = "class"
+error_on_missing_language = true
 
 
 [extra]
